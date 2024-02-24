@@ -7,7 +7,7 @@ from selenium import webdriver
 
 
 options = webdriver.ChromeOptions()
-# behave -f html -o behave-report.html
+
 
 class SearchPage(BasePage):
     MAIN_PAGE_URL = "https://www.elefant.ro/"
