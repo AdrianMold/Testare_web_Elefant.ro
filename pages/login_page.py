@@ -7,7 +7,7 @@ from selenium import webdriver
 import time
 
 options = webdriver.ChromeOptions()
-#behave -f html -o behave-report.html
+
 
 class LoginPage(BasePage):
     LOGIN_PAGE_URL = "https://www.elefant.ro/login"
