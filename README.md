@@ -59,20 +59,8 @@ Test execution results are generated in an HTML format for easy visualization an
 
 ## Project Structure
 
-project_root/
-│
-├── features/ # Gherkin feature files
-│ └── elefant.feature # Feature file for elefant.ro tests
-├── pages/ # Page classes for Page Object Model (POM)
-│ ├── base_page.py # Base page class with common functionalities
-│ ├── login_page.py # Page class for the login page functionalities
-│ └── search_page.py # Page class for the search functionalities
-├── steps/ # Step definition implementations for BDD
-│ ├── login_steps.py # Step definitions for login-related scenarios
-│ └── search_steps.py # Step definitions for search-related scenarios
-├── browser.py # Browser setup and management utilities
-├── behave.ini # Configuration file for Behave framework
-└── README.md # Detailed documentation of the project
+![image](https://github.com/AdrianMold/Testare_web_Elefant.ro/assets/85124099/0fad2542-e0fd-4f33-a29b-27ab2e3f6ecc)
+
 
 ## In this Structure
 
